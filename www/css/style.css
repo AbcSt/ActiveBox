@@ -114,6 +114,7 @@ p {
    display: inline-block;
    vertical-align: top;
    font-size: 13px;
+   line-height: 21px;
    font-weight: 600;
    color: #fff;
    text-transform: uppercase;
@@ -121,11 +122,15 @@ p {
    padding: 14px 40px;
    border-radius: 2px;
    font-family: inherit;
+   text-align: center;
    transition: 0.1s linear;
 
 }
 .btn--red {
     background-color: #e84545;
+}
+.btn--long {
+    min-width: 280px;
 }
 .btn--red:hover {
     background-color: #8f2222;
@@ -259,6 +264,171 @@ p {
     line-height: 1.5;
     font-weight: 400;
     color: #6c7279;
+    margin-bottom: 20px;
     
 }
- 
+
+/* Social
+===========================*/
+ .team-social {
+     display: flex; 
+ }
+ .footer--social {
+     justify-content: center;
+ }
+ .social-item {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #e8ecee;
+    margin-right: 4px;
+    transition: .1s linear;
+ }
+ .social-item:hover {
+    background-color: #e8ecee;
+ }
+.social-icon {
+    display: block;
+    height: 18px;
+    fill: #c6cacc;
+}
+.footer--social .social-icon {
+    fill: #fff;
+}
+.social-item:hover .social-icon {
+    fill: #000;
+}
+.footer--social .social-item {
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #fff;
+    border-radius: 2px;
+}
+.footer--social .social-item:hover {
+    background-color: #fff;
+}
+
+
+/* Reviews
+===========================*/
+.reviews {
+    overflow: hidden;
+    background-color: #53354a;
+}
+.reviews-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+.reviews-photo {
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+.reviews-img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+.reviews-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 80px;
+}
+.reviews-text {
+    font-family: 'Cardo', serif;
+    font-style: italic;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.reviews-author {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Download
+===========================*/
+.download {
+    margin: 90px;
+    text-align: center;
+}
+ .download-title {
+     font-size: 28px;
+     color: #2d3033;
+     font-weight: 300;
+     line-height: 21px;
+     margin-bottom: 10px;
+ }
+ .download-text {
+     font-size: 13px;
+     color: #2d3033;
+     font-weight: 700;
+     text-transform: uppercase;
+     line-height: 1.5;
+     margin-bottom: 30px;
+ }
+
+
+ /* Footer
+===========================*/
+
+.footer {
+    padding: 70px 0;
+    background-color: #3a3e64;
+}
+.footer-inner {
+    display: flex;
+    flex-wrap: wrap;    
+}
+.footer-block {
+    width: 33.33333%;
+    text-align: center;
+    padding: 0 15px;
+}
+.footer-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.footer-address, .footer-text {
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.6;
+}
+.footer-address, .footer-text p {
+    margin: 0;
+}
+
+ /* Copyright
+===========================*/
+.copyright {
+    padding: 20px 0;
+    background-color: #313454;
+}
+.coyright-text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #808080;
+}
+.coyright-text span {
+    color: #fff;
+}
+.heart {
+    color: red;
+}
