@@ -447,7 +447,7 @@ p {
     width: 30px;
     height: 2px;
     background-color: #fff;
-    font-size: ;
+    font-size: 0;
     color: transparent; 
     position: relative;  
 }
