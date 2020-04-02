@@ -39,6 +39,16 @@ p {
      left: 0;
      z-index: 1000;  
 }
+.header.fixed {
+    height: auto;
+    position: fixed;
+    background-color: #2e324c;
+}
+.header.fixed .header-inner {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: ;
+}
 .header-inner {
     padding: 35px 0;
     display: flex;

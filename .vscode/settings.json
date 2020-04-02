@@ -1,4 +1,5 @@
 {
     "editor.cursorSmoothCaretAnimation": true,
-    "editor.fontWeight": "100"
+    "editor.fontWeight": "100",
+    "editor.tabSize": "2"
 }
